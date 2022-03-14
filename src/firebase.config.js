@@ -4,6 +4,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// firebase config no support enviroment variable...
 const firebaseConfig = {
   apiKey: "AIzaSyC3itl4FUgIVwEnPgy8ixA71ymeK0ffI44",
   authDomain: "house-marketplace-app-7eb82.firebaseapp.com",
